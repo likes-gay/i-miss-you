@@ -1,0 +1,12 @@
+{
+	"manifest_version": 3,
+	"name": "Minimal Manifest",
+	"version": "1.0.0",
+	"description": "A basic example extension with only required keys",
+	"action": {
+		"default_title": "Click to see a red triangle"
+	},
+	"background": {
+		"service_worker": "background.js"
+	}
+}
